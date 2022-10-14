@@ -1,38 +1,106 @@
-.App {
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(10px + 1vmin);
+  color: #282c34;
 }
 
-.App-link {
-  color: #61dafb;
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.caculator_box {
+  width: 300px;
+  padding: 14px;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator_result {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: right;
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #282c34;
+}
+
+.input_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.input_item, .input-item__0 {
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  background-color: #fff;
+  text-align: right;
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 24px;
+  color: #282c34;
+  cursor: pointer;
+}
+
+.input-item__0 {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.caculator_footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-input__box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 12px;
+}
+
+.footer-input__item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  align-items: center;
+}
+
+.equal_btn {
+  width: 68px;
+  height: 148px;
+  line-height: 226px;
+  text-align: right;
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 24px;
+  color: #282c34;
+  margin-top: 12px;
+  cursor: pointer;
+  background-color: #fca400;
 }
