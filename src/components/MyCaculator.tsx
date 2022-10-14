@@ -1,6 +1,8 @@
 import React from 'react';
-import './App.css';
 
+import '../styles/App.css';
+
+/** 我的计算器组件 */
 const MyCaculator = () => {
   return (
     <div className="app">
